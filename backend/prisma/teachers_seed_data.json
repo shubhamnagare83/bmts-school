@@ -1,0 +1,164 @@
+{
+  "teachers": [
+    {
+      "teacherId": "MTFS-T-001",
+      "name": "Rahul Patil",
+      "email": "rahul.patil@mtfs.edu.in",
+      "phone": "9876500001",
+      "username": "rahul.patil",
+      "password": "Teacher@123",
+      "qualification": "B.Ed, M.A. Mathematics",
+      "department": "Primary",
+      "joiningDate": "2022-06-15",
+      "status": "active",
+      "assignments": [
+        {"class": "5th","division": "A","subjects": ["Mathematics"]},
+        {"class": "6th","division": "A","subjects": ["Mathematics"]}
+      ]
+    },
+    {
+      "teacherId": "MTFS-T-002",
+      "name": "Sneha Kulkarni",
+      "email": "sneha.kulkarni@mtfs.edu.in",
+      "phone": "9876500002",
+      "username": "sneha.kulkarni",
+      "password": "Teacher@123",
+      "qualification": "B.Ed, M.A. English",
+      "department": "Primary",
+      "joiningDate": "2021-06-10",
+      "status": "active",
+      "assignments": [
+        {"class": "3rd","division": "A","subjects": ["English"]},
+        {"class": "4th","division": "A","subjects": ["English"]}
+      ]
+    },
+    {
+      "teacherId": "MTFS-T-003",
+      "name": "Anita Fernandes",
+      "email": "anita.fernandes@mtfs.edu.in",
+      "phone": "9876500003",
+      "username": "anita.fernandes",
+      "password": "Teacher@123",
+      "qualification": "B.Ed, M.Sc. Science",
+      "department": "Secondary",
+      "joiningDate": "2020-06-01",
+      "status": "active",
+      "assignments": [
+        {"class": "8th","division": "A","subjects": ["Science"]},
+        {"class": "9th","division": "A","subjects": ["Science"]}
+      ]
+    },
+    {
+      "teacherId": "MTFS-T-004",
+      "name": "Vikas Deshmukh",
+      "email": "vikas.deshmukh@mtfs.edu.in",
+      "phone": "9876500004",
+      "username": "vikas.deshmukh",
+      "password": "Teacher@123",
+      "qualification": "B.Ed, M.A. History",
+      "department": "Secondary",
+      "joiningDate": "2019-06-12",
+      "status": "active",
+      "assignments": [
+        {"class": "7th","division": "A","subjects": ["Social Science"]},
+        {"class": "10th","division": "A","subjects": ["Social Science"]}
+      ]
+    },
+    {
+      "teacherId": "MTFS-T-005",
+      "name": "Pooja Joshi",
+      "email": "pooja.joshi@mtfs.edu.in",
+      "phone": "9876500005",
+      "username": "pooja.joshi",
+      "password": "Teacher@123",
+      "qualification": "Nursery Teacher Training (N.T.T.)",
+      "department": "Pre-Primary",
+      "joiningDate": "2023-06-05",
+      "status": "active",
+      "assignments": [
+        {"class": "Jr.KG","division": "A","subjects": ["English Reading","English Writing","English Recitation","Hindi","Marathi","Maths (Numeracy)","Environment Studies","Social Emotional","Drawing"]}
+      ]
+    },
+    {
+      "teacherId": "MTFS-T-006",
+      "name": "Sandeep Wagh",
+      "email": "sandeep.wagh@mtfs.edu.in",
+      "phone": "9876500006",
+      "username": "sandeep.wagh",
+      "password": "Teacher@123",
+      "qualification": "Nursery Teacher Training (N.T.T.)",
+      "department": "Pre-Primary",
+      "joiningDate": "2022-06-20",
+      "status": "active",
+      "assignments": [
+        {"class": "Sr.KG","division": "A","subjects": ["English Reading","English Writing","English Recitation","Hindi","Marathi","Maths (Numeracy)","Environment Studies","Social Emotional","Drawing"]}
+      ]
+    },
+    {
+      "teacherId": "MTFS-T-007",
+      "name": "Neha Shinde",
+      "email": "neha.shinde@mtfs.edu.in",
+      "phone": "9876500007",
+      "username": "neha.shinde",
+      "password": "Teacher@123",
+      "qualification": "B.Ed, B.A. Marathi",
+      "department": "Primary",
+      "joiningDate": "2021-06-18",
+      "status": "active",
+      "assignments": [
+        {"class": "1st","division": "A","subjects": ["Marathi","Hindi"]},
+        {"class": "2nd","division": "A","subjects": ["Marathi","Hindi"]}
+      ]
+    },
+    {
+      "teacherId": "MTFS-T-008",
+      "name": "Amit Joshi",
+      "email": "amit.joshi@mtfs.edu.in",
+      "phone": "9876500008",
+      "username": "amit.joshi",
+      "password": "Teacher@123",
+      "qualification": "B.Ed, M.Sc. Computer Science",
+      "department": "Secondary",
+      "joiningDate": "2020-07-01",
+      "status": "active",
+      "assignments": [
+        {"class": "8th","division": "A","subjects": ["Computer"]},
+        {"class": "9th","division": "A","subjects": ["Computer"]},
+        {"class": "10th","division": "A","subjects": ["Computer"]}
+      ]
+    },
+    {
+      "teacherId": "MTFS-T-009",
+      "name": "Kavita More",
+      "email": "kavita.more@mtfs.edu.in",
+      "phone": "9876500009",
+      "username": "kavita.more",
+      "password": "Teacher@123",
+      "qualification": "B.Ed, M.Sc. Mathematics",
+      "department": "Secondary",
+      "joiningDate": "2018-06-11",
+      "status": "active",
+      "assignments": [
+        {"class": "9th","division": "A","subjects": ["Mathematics"]},
+        {"class": "10th","division": "A","subjects": ["Mathematics"]}
+      ]
+    },
+    {
+      "teacherId": "MTFS-T-010",
+      "name": "Rohit Kadam",
+      "email": "rohit.kadam@mtfs.edu.in",
+      "phone": "9876500010",
+      "username": "rohit.kadam",
+      "password": "Teacher@123",
+      "qualification": "B.P.Ed",
+      "department": "Physical Education",
+      "joiningDate": "2022-06-08",
+      "status": "active",
+      "assignments": [
+        {"class": "6th","division": "A","subjects": ["Physical Education"]},
+        {"class": "7th","division": "A","subjects": ["Physical Education"]},
+        {"class": "8th","division": "A","subjects": ["Physical Education"]}
+      ]
+    }
+  ]
+}

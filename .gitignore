@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+node_modules_tmp/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Database dumps / stray local database files
+*.db
+*.db-journal
+*.sql.gz
+
+# Environment files
+.env
+backend/.env
+
+# Logs
+*.log
+
+# Uploads (keep directory structure)
+uploads/*
+!uploads/.gitkeep
+
+# Generated files
+backend/generated/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+
+# Docker volumes
+pgdata/
+
+# Zip Archives
+*.zip

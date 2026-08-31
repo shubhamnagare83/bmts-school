@@ -1,0 +1,38 @@
+# React single-page app served by Apache / LiteSpeed (Hostinger).
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Never rewrite real files or directories (JS, CSS, images, uploads).
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Everything else is a client-side route -> let React Router handle it.
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# index.html must never be cached, or browsers keep loading a stale bundle
+# that references deleted hashed assets.
+<FilesMatch "^index\.html$">
+  <IfModule mod_headers.c>
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+  </IfModule>
+</FilesMatch>
+
+# Build output is content-hashed, so it can be cached indefinitely.
+<FilesMatch "\.(js|css|woff2?|ttf|eot|svg|png|jpe?g|gif|webp)$">
+  <IfModule mod_headers.c>
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </IfModule>
+</FilesMatch>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

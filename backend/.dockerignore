@@ -1,0 +1,17 @@
+node_modules
+node_modules_tmp
+dist
+.env
+.env.*
+.git
+*.log
+coverage
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+
+# Never bake a local development database into the image;
+# the container creates its own via `prisma migrate deploy`.
+prisma/*.db
+prisma/*.db-journal
+uploads

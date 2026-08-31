@@ -1,0 +1,11 @@
+node_modules
+node_modules_tmp
+dist
+.git
+*.log
+coverage
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+.env
+.env.*
